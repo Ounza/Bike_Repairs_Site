@@ -1,0 +1,191 @@
+html {
+  background-image: linear-gradient(#52acff, #ffe32c);
+}
+body {
+  background-image: url(images/image-lion-background.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  font-family: "Roboto", sans-serif;
+  color: white;
+  font-size: 1.125rem;
+}
+.container {
+  min-height: 300px;
+  width: 1024px;
+  margin: auto;
+}
+header {
+  display: flex;
+  align-items: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-bottom: thin solid lightgray;
+}
+nav {
+  text-align: right;
+  flex: 1;
+}
+.navigation {
+  text-decoration: none;
+  color: white;
+  font-family: "Playfair Display", serif;
+}
+.navbutton:hover {
+  background-color: grey;
+  transition-duration: 1s;
+}
+.navbutton {
+  position: relative;
+  display: inline-block;
+  border-style: solid;
+  border-width: thin;
+  padding: 10px;
+}
+.logo {
+  text-align: left;
+  flex: 1;
+}
+main {
+  min-height: 300px;
+  display: flex;
+  align-items: center;
+}
+.main2 {
+  min-height: 300px;
+  padding: 50px;
+}
+li {
+  line-height: 1.75rem;
+}
+.cards {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+.card1 {
+  background-image: url("images/image-background-card1.jpg");
+  background-size: cover;
+  background-position: bottom;
+  min-height: 250px;
+  width: 30%;
+  box-shadow: 0px 5px 5px black;
+}
+.card2 {
+  background-image: url("images/image-background-card2.jpg");
+  background-size: cover;
+  background-position: bottom;
+  min-height: 250px;
+  width: 30%;
+  box-shadow: 0px 5px 5px black;
+}
+.card3 {
+  background-image: url("images/image-background-card3.jpg");
+  background-size: cover;
+  background-position: bottom;
+  min-height: 250px;
+  width: 30%;
+  box-shadow: 0px 5px 5px black;
+}
+.herobox1 {
+  flex: 2;
+  padding-right: 100px;
+}
+.herobox2 {
+  flex: 1;
+}
+h1 {
+  font-size: 3.25rem;
+  font-family: "Playfair Display", serif;
+  margin-bottom: 1rem;
+  text-shadow: 0px 5px 5px black;
+}
+h2 {
+  font-size: 2rem;
+  font-family: "Playfair Display", serif;
+  margin-top: 30px;
+}
+p {
+  line-height: 1.75rem;
+  margin-bottom: 0.5rem;
+}
+.card1,
+.card2,
+.card3 {
+  padding: 30px 30px 20px 30px;
+  box-sizing: border-box;
+}
+.cards p {
+  font-size: 0.85rem;
+  line-height: 1.2rem;
+  margin-top: 10px;
+}
+.cards i {
+  font-size: 100px;
+}
+.cards a {
+  color: white;
+  text-decoration: none;
+}
+.herobox1 a {
+  color: #fc5e55;
+  text-decoration: none;
+  background-color: white;
+  font-family: "Playfair Display", serif;
+  padding: 10px;
+  display: inline-block;
+  margin-top: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 5px 5px black;
+}
+.testimonials {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: 100px;
+}
+.tbox {
+  border: thin solid white;
+  width: 47%;
+  padding: 50px;
+  box-sizing: border-box;
+  margin-top: 50px;
+}
+.dropdown {
+  display: none;
+  position: absolute;
+  z-index: 1;
+  padding-top: 30px;
+  margin-left: -110px;
+  text-align: center;
+}
+.navbutton:hover .dropdown {
+  display: inline-block;
+}
+.dropdown .navbutton {
+  width: 120px;
+}
+.inputwrapper {
+  margin-bottom: 30px;
+}
+input[type="text"],
+input[type="email"],
+textarea {
+  padding: 12px;
+  width: 100%;
+  font-family: "Roboto", sans-serif;
+  font-size: 0.85rem;
+  box-sizing: border-box;
+}
+.newline {
+  display: block;
+  margin-bottom: 10px;
+}
+input[type="radio"] {
+  margin-right: 5px;
+}
+.margin-right-a {
+  margin-right: 20px;
+}
+form {
+  margin: 20px 0px;
+}

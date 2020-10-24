@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- This is the Eric Meyers CSS reset -->
+    <link rel="stylesheet" href="css-reset.css">
+
+    <!-- This is the main stylesheet -->
+    <link rel="stylesheet" href="main.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=Roboto&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/6971a76c77.js" crossorigin="anonymous"></script>
+    <title>Roar Cycle - Contact Us Details</title>
+    <meta name="description" content="Contact us
+    Do you have any questions? Please do not hesitate to contact us directly. Our team will come back to you within a matter of hours to help you.
+    ">
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <div class="logo">
+                <a href="index.html"><img src="images/logo-roar-bikes.svg" alt="Roar Cycles Logo"></a>
+            </div>
+            <nav>
+                <div class="navbutton">
+                    <a href="#" class="navigation">Book Online</a>
+                    <div class="dropdown">
+                        <div class="navbutton"><a href="#" class="navigation">Onsite Service</a></div>
+                        <div class="navbutton"><a href="#" class="navigation">Parts Delivery</a></div>
+                        <div class="navbutton"><a href="#" class="navigation">Callback</a></div>
+                    </div>
+                </div>
+                <div class="navbutton">
+                    <a href="#" class="navigation">About</a>
+                </div>
+                <div class="navbutton">
+                    <a href="#" class="navigation">Contact</a>
+                </div>
+            </nav>
+        </header>
+        <div class="main2">
+            <h1>Contact Us</h1>
+            <p> Do you have any questions? Please do not hesitate to contact us directly. Our team will come back to you within a matter of hours to help you.</p>
+
+            <form action="mail.php" method="post">
+                <div class="inputwrapper">
+                    <label for="name" class="newline">First Name</label>
+                    <input type="text" name="name" id="name" placeholder="First Name">
+                </div>
+                <div class="inputwrapper">
+                    <label for="email" class="newline">Email</label>
+                    <input type="email" name="email" id="email" placeholder="simba@email.com">
+                </div>
+                <div class="inputwrapper">
+                    <textarea name="inputtext" id="inputtext" cols="30" rows="5" placeholder="Input feedback here"></textarea>
+                </div>
+                <div class="inputwrapper">
+                    <input type="checkbox" name="sign-me-up" id="sign-me-up" value="Yes Sign me up for email" checked>
+                    <label for="sign-me-up">Sign Me Up for Newsletters</label>
+                </div>
+                <div class="inputwrapper">
+                    <p>How would you like to be contacted?</p>
+                    <input type="radio" name="contact-pref" id="phone" value="phone">
+                    <label for="phone" class="margin-right-a">Phone</label>
+                    <input type="radio" name="contact-pref" id="email2" value="email">
+                    <label for="phone">Email</label>
+                </div>
+                <div class="inputwrapper">
+                    <p>Which county do you belong to?</p>
+                    <select name="county" id="county">
+                        <option value="Nairobi">Nairobi</option>
+                        <option value="Mombasa">Mombasa</option>
+                        <option value="Paris">Paris</option>
+                        <option value="Cincinatti">Cincinatti</option>
+                    </select>
+                </div>
+                <div class="inputwrapper">
+                    <input type="date" name="date" id="date">
+                    <input type="color" name="color" id="color">
+                </div>
+                <input type="submit" value="Submit" class="navbutton">
+            </form>
+        </div>
+        <div class="cards">
+            <div class="card1">
+                <a href="#">
+                    <i class="fas fa-bicycle"></i>
+                    <h2>Book online</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto, deserunt placeat odit dicta
+                        ab nisi.</p>
+                </a>
+            </div>
+            <div class="card2">
+                <a href="#">
+                    <i class="fas fa-cog"></i>
+                    <h2>Service Types</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto, deserunt placeat odit dicta
+                        ab nisi.</p>
+                </a>
+            </div>
+            <div class="card3">
+                <a href="#">
+                    <i class="fas fa-phone"></i>
+                    <h2>Call for Advice</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto, deserunt placeat odit dicta
+                        ab nisi.</p>
+                </a>
+            </div>
+        </div>
+        
+    </div>
+</body>
+
+</html>
